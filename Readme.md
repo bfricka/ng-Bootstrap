@@ -21,6 +21,6 @@ This is just my boilerplate amalgamation for creating responsive single page app
 * Bootstrap 2.1.1
 * AngularJS 1.0.2
 * jQuery 1.8.2
-* Underscore 1.4.0
+* Underscore 1.4.2
 * Amplify.store 1.1.0
 * Modernizr 2.6.2
