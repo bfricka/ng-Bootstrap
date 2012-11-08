@@ -6,11 +6,11 @@ This is just my boilerplate amalgamation for creating responsive single page app
 
 ### What's Inside?
 
-* Base template: [Twitter Bootstrap]() with [LESS](http://lesscss.org/)
+* Base template: [Twitter Bootstrap](http://twitter.github.com/bootstrap/) with [LESS](http://lesscss.org/)
 * MVC / Horsepower: [AngularJS](http://angularjs.org/)
 * Library Support:
     * [jQuery](http://jquery.com/)
-    * [Underscore](http://underscorejs.org/)
+    * [Lodash](http://lodash.com/)
     * [Amplify.store](http://amplifyjs.com)
 * Feature detects: A stripped down version of [Modernizr](http://modernizr.com/download/#-fontface-backgroundsize-borderradius-boxshadow-opacity-rgba-textshadow-cssanimations-generatedcontent-cssgradients-csstransforms-csstransforms3d-csstransitions-hashchange-history-input-inputtypes-localstorage-sessionstorage-shiv-mq-cssclasses-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-css_backgroundsizecover-css_boxsizing-css_lastchild-json-load)
 * Angular App structure for [CoffeeScript](http://coffeescript.org/)
@@ -21,6 +21,6 @@ This is just my boilerplate amalgamation for creating responsive single page app
 * Bootstrap 2.2.1
 * AngularJS 1.0.2
 * jQuery 1.8.2
-* Underscore 1.4.2
+* Lodash 0.9.1
 * Amplify.store 1.1.0
 * Modernizr 2.6.2
