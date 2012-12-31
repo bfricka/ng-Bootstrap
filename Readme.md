@@ -18,9 +18,9 @@ This is just my boilerplate amalgamation for creating responsive single page app
 
 ### Current Versions
 
-* Bootstrap 2.2.1
-* AngularJS 1.0.2
-* jQuery 1.8.2
-* Lodash 0.9.1
+* Bootstrap 2.2.2
+* AngularJS 1.0.3
+* jQuery 1.8.3
+* Lodash 1.0.0-rc3
 * Amplify.store 1.1.0
 * Modernizr 2.6.2

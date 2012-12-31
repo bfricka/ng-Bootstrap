@@ -1,7 +1,18 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "6708",
+  "creatorBuild" : "8241",
   "files" : {
+    "\/js\/libs\/amplify.store.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/amplify.store.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/amplify.store.min-min.js",
+      "fileType" : 64
+    },
     "\/coffee\/app\/services.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -12,7 +23,7 @@
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/coffee\/app\/services.js",
       "outputStyle" : 0,
-      "fileType" : 4
+      "fileType" : 32
     },
     "\/less\/bootstrap\/alerts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -24,7 +35,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/alerts.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/pagination.less" : {
       "ignoreWasSetByUser" : 0,
@@ -36,7 +48,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/pagination.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/reset.less" : {
       "ignoreWasSetByUser" : 0,
@@ -48,18 +61,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/reset.css",
       "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/js\/libs\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/bootstrap.min-min.js",
-      "fileType" : 5
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/hero-unit.less" : {
       "ignoreWasSetByUser" : 0,
@@ -71,7 +74,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/hero-unit.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/dropdowns.less" : {
       "ignoreWasSetByUser" : 0,
@@ -83,7 +87,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/dropdowns.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive-utilities.less" : {
       "ignoreWasSetByUser" : 0,
@@ -95,7 +100,19 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive-utilities.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/lodash.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/lodash.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/lodash-min.js",
+      "fileType" : 64
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -104,7 +121,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 8
+      "fileType" : 2048
     },
     "\/less\/bootstrap\/button-groups.less" : {
       "ignoreWasSetByUser" : 0,
@@ -116,30 +133,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/button-groups.css",
       "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/app-min.js",
-      "fileType" : 5
-    },
-    "\/coffee\/app\/directives.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/coffee\/app\/directives.coffee",
-      "checkOutputStyle" : 1,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/coffee\/app\/directives.js",
-      "outputStyle" : 0,
-      "fileType" : 4
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/pager.less" : {
       "ignoreWasSetByUser" : 0,
@@ -151,18 +146,31 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/pager.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
-    "\/js\/libs\/underscore.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/underscore.js",
+      "inputAbbreviatedPath" : "\/js\/app.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/underscore-min.js",
-      "fileType" : 5
+      "outputAbbreviatedPath" : "\/js\/app-min.js",
+      "fileType" : 64
+    },
+    "\/coffee\/app\/directives.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/coffee\/app\/directives.coffee",
+      "checkOutputStyle" : 1,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/coffee\/app\/directives.js",
+      "outputStyle" : 0,
+      "fileType" : 32
     },
     "\/less\/bootstrap\/modals.less" : {
       "ignoreWasSetByUser" : 0,
@@ -174,7 +182,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/modals.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/buttons.less" : {
       "ignoreWasSetByUser" : 0,
@@ -186,7 +195,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/buttons.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/libs\/amplify.store.js" : {
       "ignoreWasSetByUser" : 1,
@@ -197,7 +207,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/amplify.store.min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/less\/bootstrap\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
@@ -209,7 +219,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/mixins.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive.less" : {
       "ignoreWasSetByUser" : 0,
@@ -221,7 +232,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/navs.less" : {
       "ignoreWasSetByUser" : 0,
@@ -233,7 +245,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/navs.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/coffee\/app\/app.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -245,7 +258,7 @@
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/js\/app.js",
       "outputStyle" : 1,
-      "fileType" : 4
+      "fileType" : 32
     },
     "\/less\/bootstrap\/forms.less" : {
       "ignoreWasSetByUser" : 0,
@@ -257,7 +270,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/forms.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/libs\/angular.js" : {
       "ignoreWasSetByUser" : 1,
@@ -268,18 +282,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/angular-min.js",
-      "fileType" : 5
-    },
-    "\/js\/libs\/underscore.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/underscore.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/underscore.min-min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/less\/bootstrap\/scaffolding.less" : {
       "ignoreWasSetByUser" : 0,
@@ -291,7 +294,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/scaffolding.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive-768px-979px.less" : {
       "ignoreWasSetByUser" : 0,
@@ -303,7 +307,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive-768px-979px.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive-navbar.less" : {
       "ignoreWasSetByUser" : 0,
@@ -315,7 +320,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive-navbar.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/component-animations.less" : {
       "ignoreWasSetByUser" : 0,
@@ -327,7 +333,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/component-animations.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/code.less" : {
       "ignoreWasSetByUser" : 0,
@@ -339,7 +346,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/code.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/grid.less" : {
       "ignoreWasSetByUser" : 0,
@@ -351,42 +359,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/grid.css",
       "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/less\/bootstrap\/labels-badges.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/labels-badges.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/less\/css\/labels-badges.css",
-      "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/img\/glyphicons-halflings-white.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/glyphicons-halflings-white.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/glyphicons-halflings-white.png",
-      "initialSize" : 8777,
-      "fileType" : 10
-    },
-    "\/less\/bootstrap\/type.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/type.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/less\/css\/type.css",
-      "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/style.less" : {
       "ignoreWasSetByUser" : 0,
@@ -398,7 +372,45 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/style.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/img\/glyphicons-halflings-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/glyphicons-halflings-white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/glyphicons-halflings-white.png",
+      "initialSize" : 8777,
+      "fileType" : 8192
+    },
+    "\/less\/bootstrap\/type.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/type.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/type.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/bootstrap\/labels-badges.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/labels-badges.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/labels-badges.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/thumbnails.less" : {
       "ignoreWasSetByUser" : 0,
@@ -410,7 +422,19 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/thumbnails.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/js\/libs\/lodash.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/lodash.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/lodash.min-min.js",
+      "fileType" : 64
     },
     "\/less\/bootstrap\/tables.less" : {
       "ignoreWasSetByUser" : 0,
@@ -422,7 +446,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/tables.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/navbar.less" : {
       "ignoreWasSetByUser" : 0,
@@ -434,7 +459,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/navbar.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive-1200px-min.less" : {
       "ignoreWasSetByUser" : 0,
@@ -446,43 +472,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive-1200px-min.css",
       "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/less\/bootstrap\/popovers.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/popovers.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/less\/css\/popovers.css",
-      "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/less\/bootstrap\/breadcrumbs.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/breadcrumbs.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/less\/css\/breadcrumbs.css",
-      "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/less\/bootstrap\/wells.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/bootstrap\/wells.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/less\/css\/wells.css",
-      "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/variables.less" : {
       "ignoreWasSetByUser" : 0,
@@ -494,7 +485,47 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/variables.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/bootstrap\/popovers.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/popovers.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/popovers.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/bootstrap\/breadcrumbs.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/breadcrumbs.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/breadcrumbs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/less\/bootstrap\/wells.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/wells.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/wells.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/libs\/jquery.js" : {
       "ignoreWasSetByUser" : 1,
@@ -505,7 +536,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/coffee\/plugins.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -517,7 +548,7 @@
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/coffee\/plugins.js",
       "outputStyle" : 0,
-      "fileType" : 4
+      "fileType" : 32
     },
     "\/js\/libs\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -528,7 +559,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery.min-min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/less\/bootstrap\/sprites.less" : {
       "ignoreWasSetByUser" : 0,
@@ -540,19 +571,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/sprites.css",
       "strictImports" : 0,
-      "fileType" : 0
-    },
-    "\/coffee\/app\/filters.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/coffee\/app\/filters.coffee",
-      "checkOutputStyle" : 1,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/coffee\/app\/filters.js",
-      "outputStyle" : 0,
-      "fileType" : 4
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/layouts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -564,7 +584,20 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/layouts.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/coffee\/app\/filters.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/coffee\/app\/filters.coffee",
+      "checkOutputStyle" : 1,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/coffee\/app\/filters.js",
+      "outputStyle" : 0,
+      "fileType" : 32
     },
     "\/js\/libs\/modernizr.js" : {
       "ignoreWasSetByUser" : 1,
@@ -575,18 +608,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/modernizr-min.js",
-      "fileType" : 5
-    },
-    "\/js\/libs\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/bootstrap-min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/less\/app\/main.less" : {
       "ignoreWasSetByUser" : 0,
@@ -598,7 +620,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/main.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/tooltip.less" : {
       "ignoreWasSetByUser" : 0,
@@ -610,7 +633,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/tooltip.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/bootstrap.less" : {
       "ignoreWasSetByUser" : 0,
@@ -622,7 +646,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/bootstrap.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/libs\/angular.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -633,7 +658,7 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/angular.min-min.js",
-      "fileType" : 5
+      "fileType" : 64
     },
     "\/less\/bootstrap\/close.less" : {
       "ignoreWasSetByUser" : 0,
@@ -645,7 +670,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/close.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/accordion.less" : {
       "ignoreWasSetByUser" : 0,
@@ -657,7 +683,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/accordion.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/coffee\/app\/controllers.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -669,7 +696,7 @@
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/coffee\/app\/controllers.js",
       "outputStyle" : 0,
-      "fileType" : 4
+      "fileType" : 32
     },
     "\/less\/bootstrap\/carousel.less" : {
       "ignoreWasSetByUser" : 0,
@@ -681,7 +708,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/carousel.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/responsive-767px-max.less" : {
       "ignoreWasSetByUser" : 0,
@@ -693,7 +721,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/responsive-767px-max.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
@@ -701,8 +730,8 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 13
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
     },
     "\/less\/bootstrap\/progress-bars.less" : {
       "ignoreWasSetByUser" : 0,
@@ -714,7 +743,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/progress-bars.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/less\/bootstrap\/utilities.less" : {
       "ignoreWasSetByUser" : 0,
@@ -726,7 +756,8 @@
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/less\/css\/utilities.css",
       "strictImports" : 0,
-      "fileType" : 0
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
@@ -737,47 +768,63 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/glyphicons-halflings.png",
       "initialSize" : 12799,
-      "fileType" : 10
+      "fileType" : 8192
+    },
+    "\/less\/bootstrap\/media.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/bootstrap\/media.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/less\/css\/media.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
 
   ],
   "projectSettings" : {
-    "hamlNoEscapeInAttributes" : false,
+    "hamlNoEscapeInAttributes" : 0,
+    "kitAutoOutputPathStyle" : 0,
     "lessOutputStyle" : 1,
     "hamlAutoOutputPathReplace2" : "",
     "draggedImportConcatenationStyle" : 1,
     "jadeAutoOutputPathStyle" : 0,
-    "hamlEscapeHTMLCharacters" : false,
+    "hamlEscapeHTMLCharacters" : 0,
     "javascriptAutoOutputPathStyle" : 0,
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
-    "lessStrictImports" : false,
+    "lessStrictImports" : 0,
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
     "genericWebpageFileExtensionsString" : "html, xhtml, htm, shtml, shtm, php, jsp, asp, aspx, erb, ctp",
-    "coffeeMinifyOutput" : false,
+    "coffeeMinifyOutput" : 0,
     "javascriptOutputSuffix" : "-min",
-    "stylusLineNumbers" : false,
     "jadeOutputStyle" : 0,
     "coffeeAutoOutputPathStyle" : 0,
+    "autoSyncProjectSettingsFile" : 1,
     "lessAutoOutputPathReplace1" : "less",
     "jadeAutoOutputPathReplace1" : "",
     "lessAutoOutputPathRelativePath" : "..\/css",
     "hamlAutoOutputPathRelativePath" : "",
     "jsCheckerReservedNamesString" : "angular, $:write, jQuery, google,_,amplify",
     "javascriptOutputStyle" : 1,
-    "sassDebugStyle" : 0,
+    "stylusDebugStyle" : 0,
+    "hamlUseCDATA" : 0,
     "hamlAutoOutputPathStyle" : 0,
+    "sassDebugStyle" : 0,
     "hamlOutputStyle" : 0,
-    "stylusFirebug" : false,
     "stylusAutoOutputPathRelativePath" : "..\/css",
     "jsCheckerIndent" : 2,
+    "kitAutoOutputPathRelativePath" : "",
     "lessAutoOutputPathReplace2" : "css",
     "jadeAutoOutputPathReplace2" : "",
-    "shouldRunBless" : true,
+    "shouldRunBless" : 1,
     "stylusAutoOutputPathStyle" : 2,
     "coffeeCheckOutputStyle" : 1,
     "slimOutputStyle" : 1,
@@ -786,129 +833,140 @@
     "slimAutoOutputPathReplace1" : "",
     "sassOutputStyle" : 0,
     "coffeeAutoOutputPathRelativePath" : "",
-    "slimCompileOnly" : false,
-    "slimLogicless" : false,
+    "slimCompileOnly" : 0,
+    "slimLogicless" : 0,
     "uglifyIndent" : 4,
     "jadeAutoOutputPathRelativePath" : "",
-    "hamlUseUnixNewlines" : false,
+    "hamlUseUnixNewlines" : 0,
     "hamlAutoOutputPathReplace1" : "",
     "javascriptAutoOutputPathReplace1" : "",
     "stylusOutputStyle" : 0,
     "javascriptAutoOutputPathReplace2" : "",
     "sassAutoOutputPathRelativePath" : "..\/css",
     "coffeeAutoOutputPathReplace1" : "",
-    "hamlUseDoubleQuotes" : false,
+    "hamlUseDoubleQuotes" : 0,
     "coffeeAutoOutputPathReplace2" : "",
+    "kitAutoOutputPathReplace1" : "",
     "uglifyReservedNamesString" : "",
-    "jsHintFlags" : {
-      "latedef" : true,
-      "newcap" : true,
-      "curly" : false,
-      "trailing" : true,
-      "nonew" : true,
-      "withstmt" : false,
-      "mootools" : false,
-      "proto" : false,
-      "boss" : false,
-      "funcscope" : false,
-      "regexdash" : false,
-      "jquery" : false,
-      "esnext" : false,
-      "camelcase" : false,
-      "es5" : false,
-      "dojo" : false,
-      "strict" : false,
-      "devel" : true,
-      "onecase" : false,
-      "wsh" : false,
-      "nonstandard" : false,
-      "asi" : true,
-      "smarttabs" : false,
-      "rhino" : false,
-      "noempty" : false,
-      "lastsemic" : false,
-      "eqnull" : true,
-      "eqeqeq" : true,
-      "couch" : false,
-      "evil" : false,
-      "expr" : false,
-      "immed" : false,
-      "globalstrict" : false,
-      "undef" : true,
-      "iterator" : false,
-      "prototypejs" : false,
-      "noarg" : true,
-      "supernew" : false,
-      "node" : false,
-      "unused" : false,
-      "debug" : false,
-      "bitwise" : true,
-      "browser" : true,
-      "worker" : false,
-      "laxcomma" : false,
-      "multistr" : false,
-      "shadow" : true,
-      "sub" : false,
-      "regexp" : false,
-      "scripturl" : false,
-      "forin" : true,
-      "loopfunc" : false,
-      "laxbreak" : false,
-      "plusplus" : false
-    },
     "coffeeOutputStyle" : 0,
     "slimAutoOutputPathRelativePath" : "",
+    "jsHintFlags" : {
+      "latedef" : 1,
+      "newcap" : 1,
+      "curly" : 0,
+      "trailing" : 1,
+      "nonew" : 1,
+      "withstmt" : 0,
+      "yui" : 0,
+      "mootools" : 0,
+      "proto" : 0,
+      "boss" : 0,
+      "funcscope" : 0,
+      "regexdash" : 0,
+      "jquery" : 0,
+      "esnext" : 0,
+      "camelcase" : 0,
+      "es5" : 0,
+      "dojo" : 0,
+      "strict" : 0,
+      "devel" : 1,
+      "onecase" : 0,
+      "wsh" : 0,
+      "nonstandard" : 0,
+      "asi" : 1,
+      "smarttabs" : 0,
+      "rhino" : 0,
+      "noempty" : 0,
+      "lastsemic" : 0,
+      "eqnull" : 1,
+      "eqeqeq" : 1,
+      "couch" : 0,
+      "evil" : 0,
+      "expr" : 0,
+      "immed" : 0,
+      "globalstrict" : 0,
+      "undef" : 1,
+      "iterator" : 0,
+      "prototypejs" : 0,
+      "noarg" : 1,
+      "supernew" : 0,
+      "node" : 0,
+      "unused" : 0,
+      "debug" : 0,
+      "bitwise" : 1,
+      "white" : 0,
+      "worker" : 0,
+      "browser" : 1,
+      "laxcomma" : 0,
+      "multistr" : 0,
+      "shadow" : 1,
+      "sub" : 0,
+      "regexp" : 0,
+      "scripturl" : 0,
+      "forin" : 1,
+      "loopfunc" : 0,
+      "laxbreak" : 0,
+      "plusplus" : 0
+    },
     "jsLintFlags" : {
-      "white" : false,
-      "bitwise" : false,
-      "regexp" : false,
-      "vars" : false,
-      "anon" : false,
-      "sub" : false,
-      "stupid" : false,
-      "nomen" : false,
-      "unparam" : false,
-      "newcap" : false,
-      "'continue'" : false,
-      "sloppy" : false,
-      "fragment" : false,
-      "undef" : false,
-      "es5" : false,
-      "browser" : true,
-      "properties" : false,
-      "forin" : false,
-      "plusplus" : false,
-      "debug" : false,
-      "eqeq" : false,
-      "confusion" : false,
-      "evil" : false,
-      "on" : false,
-      "cap" : false,
-      "windows" : false,
-      "devel" : false,
-      "rhino" : false,
-      "node" : false,
-      "css" : false
+      "white" : 0,
+      "bitwise" : 0,
+      "regexp" : 0,
+      "vars" : 0,
+      "anon" : 0,
+      "sub" : 0,
+      "stupid" : 0,
+      "nomen" : 0,
+      "unparam" : 0,
+      "newcap" : 0,
+      "'continue'" : 0,
+      "sloppy" : 0,
+      "fragment" : 0,
+      "undef" : 0,
+      "es5" : 0,
+      "browser" : 1,
+      "properties" : 0,
+      "forin" : 0,
+      "plusplus" : 0,
+      "debug" : 0,
+      "eqeq" : 0,
+      "confusion" : 0,
+      "evil" : 0,
+      "on" : 0,
+      "windows" : 0,
+      "devel" : 0,
+      "rhino" : 0,
+      "node" : 0,
+      "css" : 0
     },
     "uglifyFlags" : {
-      "no-mangle-functions" : true,
-      "no-mangle" : false,
-      "no-copyright" : false,
-      "no-dead-code" : false,
-      "inline-script" : false,
-      "ascii" : false,
-      "mangle-toplevel" : false,
-      "unsafe" : true,
-      "no-seqs" : true,
-      "beautify" : false,
-      "lift-vars" : true,
-      "no-squeeze" : false
+      "no-mangle-functions" : 1,
+      "no-mangle" : 0,
+      "no-copyright" : 0,
+      "no-dead-code" : 0,
+      "inline-script" : 0,
+      "ascii" : 0,
+      "mangle-toplevel" : 0,
+      "unsafe" : 1,
+      "no-seqs" : 1,
+      "beautify" : 0,
+      "lift-vars" : 1,
+      "consolidate-primitive-values" : 0,
+      "no-squeeze" : 0
     },
     "sassAutoOutputPathReplace2" : "css",
     "slimAutoOutputPathReplace2" : "",
-    "jadeCompileDebug" : true,
-    "slimRailsCompatible" : false,
+    "jadeCompileDebug" : 1,
+    "slimRailsCompatible" : 0,
+    "kitAutoOutputPathReplace2" : "",
+    "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
+  },
+  "projectAttributes" : {
+    "bourbonEnabled" : 0,
+    "displayValue" : "ng-Bootstrap",
+    "displayValueWasSetByUser" : 0,
+    "compassEnabled" : 0
   }
 }
