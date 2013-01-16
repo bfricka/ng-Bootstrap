@@ -20,7 +20,7 @@ This is just my boilerplate amalgamation for creating responsive single page app
 
 * Bootstrap 2.2.2
 * AngularJS 1.0.3
-* jQuery 1.8.3
+* jQuery 1.9.0
 * Lodash 1.0.0-rc3
 * Amplify.store 1.1.0
 * Modernizr 2.6.2

@@ -1,5 +1,8 @@
 # Changelog
 
+### 1/15/2013
+- Updated jQuery to 1.9.0
+
 ### 12/30/2012
 - Updated Lodash to 1.0.0-rc3
 - Updated jQuery to 1.8.3
