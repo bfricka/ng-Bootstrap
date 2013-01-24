@@ -19,7 +19,7 @@ This is just my boilerplate amalgamation for creating responsive single page app
 ### Current Versions
 
 * Bootstrap 2.2.2
-* AngularJS 1.0.3
+* AngularJS 1.0.4
 * jQuery 1.9.0
 * Lodash 1.0.0-rc3
 * Amplify.store 1.1.0
