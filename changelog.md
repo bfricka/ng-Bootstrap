@@ -2,8 +2,10 @@
 
 ### 2/19/2013
 - Updated jQuery to 1.9.1
-- Updated AngularJS to 1.0.4
 - Updated Lodash to 1.0.1
+
+### 1/23/2013
+- Updated AngularJS to 1.0.4
 
 ### 1/15/2013
 - Updated jQuery to 1.9.0
