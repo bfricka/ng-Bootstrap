@@ -29,7 +29,8 @@ module.exports = function(grunt) {
     }
 
     , paths: {
-        js: './public/javascripts/app'
+        js: './public/javascripts'
+      , jsApp: './public/javascripts/app'
       , test: './test'
       , styles: './public/stylesheets'
     }
@@ -38,9 +39,9 @@ module.exports = function(grunt) {
       app: {
         files: {
           "<%= paths.js %>/app.js": [
-              "<%= paths.js %>/modules/app.js"
-            , "<%= paths.js %>/services/Stor.js"
-            , "<%= paths.js %>/controllers/MainAppCtrl.js"
+              "<%= paths.jsApp %>/modules/app.js"
+            , "<%= paths.jsApp %>/services/Stor.js"
+            , "<%= paths.jsApp %>/controllers/MainAppCtrl.js"
           ]
         }
       }
@@ -97,8 +98,8 @@ module.exports = function(grunt) {
     }
 
     , jshint: {
-        options: { jshintrc: "./.jshintrc", ignores: [ "<%= paths.js %>/app.min.js" ] }
-      , src: [ "<%= paths.js %>/**/*.js" ]
+        options: { jshintrc: "./.jshintrc" }
+      , src: [ "<%= paths.jsApp %>/**/*.js" ]
     }
 
     , karma: {
