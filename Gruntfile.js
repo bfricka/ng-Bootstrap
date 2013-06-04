@@ -7,10 +7,11 @@ module.exports = function(grunt) {
   }
 
   grunt.loadNpmTasks('grunt-karma');
+  grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json')
@@ -65,6 +66,11 @@ module.exports = function(grunt) {
           files: [ "<%= paths.test %>/**/*.spec.js" ]
         , tasks: [ "karma:unit:run" ]
       }
+
+      , less: {
+          files: [ "<%= paths.styles %>/**/*.less" ]
+        , tasks: [ "less:development" ]
+      }
     }
 
     , uglify: {
@@ -110,6 +116,25 @@ module.exports = function(grunt) {
         , browsers: ['Chrome']
       }
     }
+
+    , less: {
+      development: {
+        options: {
+            compress        : false
+          , yuicompress     : false
+          , dumpLineNumbers : 'comments'
+        }
+        , files: { '<%= paths.styles %>/styles.css': '<%= paths.styles %>/styles.less' }
+      }
+      , production: {
+        options: {
+            compress        : false
+          , yuicompress     : true
+          , dumpLineNumbers : false
+        }
+        , files: { '<%= paths.styles %>/styles.css': '<%= paths.styles %>/styles.less' }
+      }
+    }
   });
 
   grunt.registerTask('default', [
@@ -117,6 +142,7 @@ module.exports = function(grunt) {
     , "jshint"
     , "uglify"
     , "concat:build"
+    , "less:production"
     , "karma:unit:run"
   ]);
 };
