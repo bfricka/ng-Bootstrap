@@ -1,7 +1,7 @@
 {
   "name": "ng-Bootstrap-JS"
   , "description": "Boilerplate for AngularJS and Bootstrap"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "private": true
   , "author": "Brian Frichette"
   , "homepage": "https://github.com/brian-frichette/ng-Bootstrap"
@@ -11,14 +11,13 @@
 
   , "devDependencies": {
       "grunt": "0.4.x"
-    , "karma": ">=0.8"
+    , "connect": "*"
     , "grunt-karma": ">=0.4"
-    , "grunt-contrib-less": ">=0.5"
+    , "grunt-contrib-less": ">=0.6"
     , "grunt-contrib-watch": ">=0.4"
     , "grunt-contrib-uglify": ">=0.2"
     , "grunt-contrib-concat": ">=0.3"
     , "grunt-contrib-jshint": ">=0.6"
-    , "nodemon": "*"
   }
   , "repository": {
     "type": "git"
