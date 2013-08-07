@@ -1,5 +1,11 @@
 # Changelog
 
+### 8/7/2013 0.1.1
+- Removed Modernizr, which is no longer useful enough in most of my scenarios to justify keeping (this is a good thing!)
+- Version bump on lodash
+- jQuery using 2.x now
+- Updated Bootstrap to 3 RC1 and updated template accordingly
+
 ### 6/3/2013 0.1.0
 - Converted to JavaScript using different structure
 - Separated CoffeeScript into different project

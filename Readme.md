@@ -12,7 +12,6 @@ This is just my boilerplate amalgamation for creating responsive single page app
     * [jQuery](http://jquery.com/)
     * [Lodash](http://lodash.com/)
     * [Amplify.store](http://amplifyjs.com)
-* Feature detects: A stripped down version of [Modernizr](http://modernizr.com/download/#-fontface-backgroundsize-borderradius-boxshadow-opacity-rgba-textshadow-cssanimations-generatedcontent-cssgradients-csstransforms-csstransforms3d-csstransitions-hashchange-history-input-inputtypes-localstorage-sessionstorage-shiv-mq-cssclasses-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-css_backgroundsizecover-css_boxsizing-css_lastchild-json-load)
 * Angular App structure for JavaScript
 * [Grunt](http://gruntjs.com/) build tasks.
 
@@ -29,9 +28,8 @@ Since 0.1.0, I added grunt instead of Codekit for added power and flexibility.  
 
 ### Current Versions
 
-* Bootstrap 2.3.2
+* Bootstrap 3.0 RC1
 * AngularJS 1.1.5
-* jQuery 1.10.1
-* Lodash 1.2.1
+* jQuery 2.0.3
+* Lodash 1.3.1
 * Amplify.store 1.1.0
-* Modernizr 2.6.2
