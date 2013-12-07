@@ -28,8 +28,8 @@ Since 0.1.0, I added grunt instead of Codekit for added power and flexibility.  
 
 ### Current Versions
 
-* Bootstrap 3.0 RC1
-* AngularJS 1.1.5
+* Bootstrap 3.0.3
+* AngularJS 1.2.4
 * jQuery 2.0.3
-* Lodash 1.3.1
+* Lodash Mobile 2.4.1
 * Amplify.store 1.1.0
