@@ -1,5 +1,9 @@
 # Changelog
 
+### 12/7/2013 0.1.2
+- Version bumps on AngularJS (1.2.4), Lodash Mobile (2.4.1)
+- Update to Bootstrap 3
+
 ### 8/7/2013 0.1.1
 - Removed Modernizr, which is no longer useful enough in most of my scenarios to justify keeping (this is a good thing!)
 - Version bump on lodash
